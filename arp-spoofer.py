@@ -23,6 +23,7 @@ def restore_table(destination_ip, source_ip):
 target_ip = ""
 gateway_ip = ""
 
+# Add a function to take target and getway ip from the terminal as arguments
 
 def spoof(target_ip, spoof_ip):
     target_mac = get_mac(target_ip)
